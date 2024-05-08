@@ -7,13 +7,17 @@ from mtgscan.box_text import BoxTextList
 from mtgscan.utils import is_url
 from .ocr import OCR
 
+from azure.ai.vision.imageanalysis import ImageAnalysisClient
+from azure.ai.vision.imageanalysis.models import VisualFeatures
+from azure.core.credentials import AzureKeyCredential
+
 
 class Azure(OCR):
 
     def __init__(self):
         try:
-            self.subscription_key = os.environ['AZURE_VISION_KEY']
-            self.text_recognition_url = os.environ['AZURE_VISION_ENDPOINT'] + "/vision/v3.1/read/analyze"
+            self.subscription_key = os.environ['VISION_KEY']
+            self.text_recognition_url = os.environ['VISION_ENDPOINT'] + "computervision/imageanalysis:analyze?api-version=2024-02-01&features=read"
         except IndexError as e:
             print(str(e))
             print(
@@ -24,29 +28,42 @@ class Azure(OCR):
         return "Azure"
 
     def image_to_box_texts(self, image: str, is_base64=False) -> BoxTextList:
+        # Create an Image Analysis client
+        # client = ImageAnalysisClient(
+        #     endpoint=os.environ['VISION_ENDPOINT'],
+        #     credential=AzureKeyCredential(self.subscription_key)
+        # )
+        # # [START read]
+        # # Load image to analyze into a 'bytes' object
+        # with open("decktest.jpeg", "rb") as f:
+        #     image_data = f.read()
+
+        # # Extract text (OCR) from an image stream. This will be a synchronously (blocking) call.
+        # result = client.analyze(
+        #     image_data=image_data,
+        #     visual_features=[VisualFeatures.READ]
+        # )
+        print("testprint")
         headers = {'Ocp-Apim-Subscription-Key': self.subscription_key}
         json, data = None, None
         if is_url(image):
             json = {'url': image}
         else:
-            headers['Content-Type'] = 'application/octet-stream'
+            headers['Content-Type'] = 'application/json'
             data = image
             if not is_base64:
                 with open(image, "rb") as f:
                     data = f.read()
         logging.info(f"Send {image} to Azure")
         response = requests.post(self.text_recognition_url, headers=headers, json=json, data=data)
-        response.raise_for_status()
-        poll = True
-        while poll:
-            response_final = requests.get(response.headers["Operation-Location"], headers=headers)
-            analysis = response_final.json()
-            time.sleep(1)
-            if "analyzeResult" in analysis:
-                poll = False
-            if "status" in analysis and analysis['status'] == 'failed':
-                poll = False
+        data = response.json()
         box_texts = BoxTextList()
-        for line in analysis["analyzeResult"]["readResults"][0]["lines"]:
-            box_texts.add(line["boundingBox"], line["text"])
+        for line in data["readResult"]["blocks"][0]["lines"]:
+            boundingBox = []
+            for point in line["boundingPolygon"]:
+                boundingBox.append(point["x"])
+                boundingBox.append(point["y"])
+            boundingTuple = tuple(boundingBox)
+            box_texts.add(boundingTuple, line["text"])
+
         return box_texts
