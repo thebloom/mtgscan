@@ -7,11 +7,6 @@ from mtgscan.box_text import BoxTextList
 from mtgscan.utils import is_url
 from .ocr import OCR
 
-from azure.ai.vision.imageanalysis import ImageAnalysisClient
-from azure.ai.vision.imageanalysis.models import VisualFeatures
-from azure.core.credentials import AzureKeyCredential
-
-
 class Azure(OCR):
 
     def __init__(self):
