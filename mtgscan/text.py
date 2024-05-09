@@ -25,7 +25,7 @@ class MagicRecognition:
                  file_all_cards: str,
                  file_keywords: str,
                  languages=("English", ),
-                 max_ratio_diff=0.3,
+                 max_ratio_diff=0.5,
                  max_ratio_diff_keyword=0.2) -> None:
         """Load dictionnaries of cards and keywords
 

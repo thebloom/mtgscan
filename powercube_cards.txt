@@ -1,0 +1,540 @@
+Esper Sentinel$1
+Giver of Runes$1
+Mother of Runes$1
+Novice Inspector$1
+Student of Warfare$1
+Thraben Inspector$1
+Usher of the Fallen$1
+Adanto Vanguard$1
+Archivist of Oghma$1
+Cathar Commando$1
+Containment Priest$1
+Intrepid Adversary$1
+Leonin Arbiter$1
+Leonin Relic-Warder$1
+Lion Sash$1
+Luminarch Aspirant$1
+Samwise the Stouthearted$1
+Scholar of New Horizons$1
+Stoneforge Mystic$1
+Thalia, Guardian of Thraben$1
+Tithe Taker$1
+Wall of Omens$1
+Adeline, Resplendent Cathar$1
+Archon of Emeria$1
+Blade Splicer$1
+Elite Spellbinder$1
+Flickerwisp$1
+Loran of the Third Path$1
+Monastery Mentor$1
+Porcelain Legionnaire$1
+Recruiter of the Guard$1
+Skyclave Apparition$1
+Thalia, Heretic Cathar$1
+White Plume Adventurer$1
+Hero of Bladehold$1
+Palace Jailer$1
+Restoration Angel$1
+Seasoned Dungeoneer$1
+Karmic Guide$1
+Solitude$1
+Sun Titan$1
+Elesh Norn, Grand Cenobite$1
+The Wandering Emperor$1
+Ephemerate$1
+Mana Tithe$1
+March of Otherworldly Light$1
+Path to Exile$1
+Swords to Plowshares$1
+Get Lost$1
+Reprieve$1
+Unexpectedly Absent$1
+Prismatic Ending$1
+Balance$1
+Council's Judgment$1
+Lingering Souls$1
+Armageddon$1
+Wrath of God$1
+Spectral Procession$1
+Terminus$1
+Portable Hole$1
+Staff of the Storyteller$1
+Parallax Wave$1
+Leyline Binding$1
+Delver of Secrets$1
+Baral, Chief of Compliance$1
+Faerie Mastermind$1
+Jace, Vryn's Prodigy$1
+Ledger Shredder$1
+Malcolm, Alluring Scoundrel$1
+Phantasmal Image$1
+Snapcaster Mage$1
+Thassa's Oracle$1
+Thieving Skydiver$1
+Brazen Borrower$1
+Chrome Host Seedshark$1
+Emry, Lurker of the Loch$1
+Forensic Gadgeteer$1
+Hullbreacher$1
+Spellseeker$1
+Tishana's Tidebinder$1
+Trinket Mage$1
+True-Name Nemesis$1
+Vendilion Clique$1
+Displacer Kitten$1
+Phyrexian Metamorph$1
+Subtlety$1
+Urza, Lord High Artificer$1
+Venser, Shaper Savant$1
+Kappa Cannoneer$1
+Narset, Parter of Veils$1
+Jace, the Mind Sculptor$1
+Jace, Wielder of Mysteries$1
+Ancestral Recall$1
+Brainstorm$1
+Force Spike$1
+High Tide$1
+Mystical Tutor$1
+Spell Pierce$1
+Brain Freeze$1
+Counterspell$1
+Daze$1
+Flash$1
+Mana Drain$1
+Mana Leak$1
+Memory Lapse$1
+Miscalculation$1
+Remand$1
+Force of Negation$1
+Frantic Search$1
+Cryptic Command$1
+Fact or Fiction$1
+Turnabout$1
+Force of Will$1
+Mystic Confluence$1
+Dig Through Time$1
+Gitaxian Probe$1
+Hard Evidence$1
+Ponder$1
+Preordain$1
+Sleight of Hand$1
+Chart a Course$1
+Merchant Scroll$1
+Time Walk$1
+Show and Tell$1
+Timetwister$1
+Tinker$1
+Lórien Revealed$1
+Time Warp$1
+Echo of Eons$1
+Mind's Desire$1
+Time Spiral$1
+Upheaval$1
+Cryptic Coat$1
+Dream Halls$1
+Concealing Curtains$1
+Putrid Imp$1
+Dark Confidant$1
+Dauthi Voidwalker$1
+Deep-Cavern Bat$1
+Oona's Prowler$1
+Orcish Bowmasters$1
+Tourach, Dread Cantor$1
+Vampire Hexmage$1
+Graveyard Trespasser$1
+Murderous Rider$1
+Opposition Agent$1
+Plague Engineer$1
+Preacher of the Schism$1
+Rotting Regisaur$1
+Sedgemoor Witch$1
+Grief$1
+Ravenous Chupacabra$1
+Sheoldred, the Apocalypse$1
+Yawgmoth, Thran Physician$1
+Custodi Lich$1
+Shriekmaw$1
+Grave Titan$1
+Troll of Khazad-dûm$1
+Archon of Cruelty$1
+Griselbrand$1
+Liliana of the Veil$1
+Dark Ritual$1
+Demonic Consultation$1
+Entomb$1
+Fatal Push$1
+Rain of Filth$1
+Vampiric Tutor$1
+Bitter Triumph$1
+Cabal Ritual$1
+Infernal Grasp$1
+Shallow Grave$1
+Sheoldred's Edict$1
+Tainted Pact$1
+Corpse Dance$1
+Dismember$1
+Snuff Out$1
+Bloodchief's Thirst$1
+Bone Shards$1
+Duress$1
+Inquisition of Kozilek$1
+Mind Twist$1
+Reanimate$1
+Thoughtseize$1
+Collective Brutality$1
+Damn$1
+Demonic Tutor$1
+Exhume$1
+Hymn to Tourach$1
+Night's Whisper$1
+Doomsday$1
+Toxic Deluge$1
+Yawgmoth's Will$1
+Damnation$1
+Tendrils of Agony$1
+From the Catacombs$1
+Wishclaw Talisman$1
+Bolas's Citadel$1
+Animate Dead$1
+Dance of the Dead$1
+Necromancy$1
+Recurring Nightmare$1
+Dragon's Rage Channeler$1
+Goblin Guide$1
+Goblin Welder$1
+Grim Lavamancer$1
+Monastery Swiftspear$1
+Ragavan, Nimble Pilferer$1
+Bloodthirsty Adversary$1
+Dire Fleet Daredevil$1
+Dreadhorde Arcanist$1
+Embereth Shieldbreaker$1
+Inti, Seneschal of the Sun$1
+Young Pyromancer$1
+Birgi, God of Storytelling$1
+Bonecrusher Giant$1
+Broadside Bombardiers$1
+Goblin Rabblemaster$1
+Gut, True Soul Zealot$1
+Laelia, the Blade Reforged$1
+Magus of the Moon$1
+Rampaging Ferocidon$1
+Seasoned Pyromancer$1
+Squee, Dubious Monarch$1
+Caves of Chaos Adventurer$1
+Flametongue Kavu$1
+Rampaging Raptor$1
+Fury$1
+Glorybringer$1
+Goldspan Dragon$1
+Inferno Titan$1
+Oliphaunt$1
+Worldgorger Dragon$1
+Etali, Primal Conqueror$1
+Chandra, Torch of Defiance$1
+Lightning Bolt$1
+Red Elemental Blast$1
+Unholy Heat$1
+Abrade$1
+Ancient Grudge$1
+Seething Song$1
+Mine Collapse$1
+Through the Breach$1
+Fireblast$1
+Pyrokinesis$1
+Chain Lightning$1
+Faithless Looting$1
+Firebolt$1
+Flame Slash$1
+Rite of Flame$1
+Pyroclasm$1
+Tribal Flames$1
+Light Up the Stage$1
+Wheel of Fortune$1
+Empty the Warrens$1
+Fiery Confluence$1
+Kumano Faces Kakkazan$1
+Underworld Breach$1
+Fable of the Mirror-Breaker$1
+Mana Flare$1
+Sulfuric Vortex$1
+Sneak Attack$1
+The Flux$1
+Arbor Elf$1
+Birds of Paradise$1
+Delighted Halfling$1
+Elvish Mystic$1
+Elvish Reclaimer$1
+Hexdrinker$1
+Ignoble Hierarch$1
+Joraga Treespeaker$1
+Noble Hierarch$1
+Collector Ouphe$1
+Lotus Cobra$1
+Nishoba Brawler$1
+Rofellos, Llanowar Emissary$1
+Sakura-Tribe Elder$1
+Scavenging Ooze$1
+Sylvan Caryatid$1
+Tarmogoyf$1
+Wall of Blossoms$1
+Wall of Roots$1
+Augur of Autumn$1
+Courser of Kruphix$1
+Dryad of the Ilysian Grove$1
+Eternal Witness$1
+Managorger Hydra$1
+Ramunap Excavator$1
+Reclamation Sage$1
+Sentinel of the Nameless City$1
+Tireless Tracker$1
+Oracle of Mul Daya$1
+Questing Beast$1
+Undermountain Adventurer$1
+Thragtusk$1
+Titania, Protector of Argoth$1
+Primeval Titan$1
+Craterhoof Behemoth$1
+Woodfall Primus$1
+Worldspine Wurm$1
+Garruk Wildspeaker$1
+Nissa, Who Shakes the World$1
+Nissa, Ascended Animist$1
+Crop Rotation$1
+Dissenter's Deliverance$1
+Once Upon a Time$1
+Tear Asunder$1
+Force of Vigor$1
+Abundant Harvest$1
+Green Sun's Zenith$1
+Pest Infestation$1
+Channel$1
+Finale of Devastation$1
+Life from the Loam$1
+Regrowth$1
+Eureka$1
+Natural Order$1
+Scapeshift$1
+Esika's Chariot$1
+Exploration$1
+Fastbond$1
+Oath of Druids$1
+Survival of the Fittest$1
+Sylvan Library$1
+Heartbeat of Spring$1
+Geist of Saint Traft$1
+Spell Queller$1
+Teferi, Time Raveler$1
+Supreme Verdict$1
+Fractured Identity$1
+Teferi, Hero of Dominaria$1
+Baleful Strix$1
+Lazav, Wearer of Faces$1
+Kaito Shizuki$1
+Sauron's Ransom$1
+Thief of Sanity$1
+Kaito, Dancing Shadow$1
+Fallen Shinobi$1
+Bloodtithe Harvester$1
+Molten Collapse$1
+Carnage Interpreter$1
+Daretti, Ingenious Iconoclast$1
+Fire Covenant$1
+Kolaghan's Command$1
+Chaos Defiler$1
+Manamorphose$1
+Mawloc$1
+Territorial Kavu$1
+Wrenn and Six$1
+Bloodbraid Elf$1
+Minsc & Boo, Timeless Heroes$1
+Voice of Resurgence$1
+Knight of Autumn$1
+Knight of the Reliquary$1
+Torsten, Founder of Benalia$1
+Tidehollow Sculler$1
+Lurrus of the Dream-Den$1
+Vindicate$1
+Expressive Iteration$1
+Third Path Iconoclast$1
+Dack Fayden$1
+Saheeli, Sublime Artificer$1
+Fire // Ice$1
+Frost Fair Lure Fish$1
+Deathrite Shaman$1
+Abrupt Decay$1
+Grist, the Hunger Tide$1
+Life // Death$1
+Pernicious Deed$1
+Figure of Destiny$1
+Forth Eorlingas!$1
+Lightning Helix$1
+Zirda, the Dawnwaker$1
+Comet, Stellar Pup$1
+Kinnan, Bonder Prodigy$1
+Oko, Thief of Crowns$1
+Unruly Krasis$1
+Sail into the West$1
+Tamiyo, Collector of Tales$1
+Aragorn, King of Gondor$1
+Leovold, Emissary of Trest$1
+Omnath, Locus of Creation$1
+Atraxa, Grand Unifier$1
+Niv-Mizzet Reborn$1
+Hangarback Walker$1
+Walking Ballista$1
+Bomat Courier$1
+Haywire Mite$1
+Phyrexian Revoker$1
+Scrapheap Scrounger$1
+Metalworker$1
+Lodestone Golem$1
+Solemn Simulacrum$1
+Golos, Tireless Pilgrim$1
+Wurmcoil Engine$1
+Myr Battlesphere$1
+Blightsteel Colossus$1
+Emrakul, the Aeons Torn$1
+Emrakul, the Promised End$1
+Scion of Draco$1
+Sundering Titan$1
+Ulamog, the Ceaseless Hunger$1
+Karn, Scion of Urza$1
+Black Lotus$1
+Chrome Mox$1
+Everflowing Chalice$1
+Lion's Eye Diamond$1
+Lotus Petal$1
+Mana Crypt$1
+Mishra's Bauble$1
+Mox Diamond$1
+Mox Emerald$1
+Mox Jet$1
+Mox Opal$1
+Mox Pearl$1
+Mox Ruby$1
+Mox Sapphire$1
+Urza's Bauble$1
+Zuran Orb$1
+Currency Converter$1
+Mana Vault$1
+Pithing Needle$1
+Relic of Progenitus$1
+Retrofitter Foundry$1
+Sensei's Divining Top$1
+Skullclamp$1
+Sol Ring$1
+Azorius Signet$1
+Boros Signet$1
+Dimir Signet$1
+Golgari Signet$1
+Grim Monolith$1
+Gruul Signet$1
+Helm of Awakening$1
+Izzet Signet$1
+Null Rod$1
+Orzhov Signet$1
+Pentad Prism$1
+Rakdos Signet$1
+Selesnya Signet$1
+Simic Signet$1
+Smuggler's Copter$1
+Sphere of Resistance$1
+Thorn of Amethyst$1
+Umezawa's Jitte$1
+Winter Orb$1
+Basalt Monolith$1
+Coalition Relic$1
+Crucible of Worlds$1
+Palantír of Orthanc$1
+Tangle Wire$1
+Worn Powerstone$1
+Mystic Forge$1
+The One Ring$1
+Batterskull$1
+Memory Jar$1
+The Mightstone and Weakstone$1
+Coveted Jewel$1
+Kaldra Compleat$1
+Portal to Phyrexia$1
+Adarkar Wastes$1
+Celestial Colonnade$1
+Hallowed Fountain$1
+Tundra$1
+Creeping Tar Pit$1
+Underground River$1
+Underground Sea$1
+Watery Grave$1
+Badlands$1
+Blood Crypt$1
+Raucous Theater$1
+Sulfurous Springs$1
+Karplusan Forest$1
+Raging Ravine$1
+Stomping Ground$1
+Taiga$1
+Brushland$1
+Lush Portico$1
+Savannah$1
+Temple Garden$1
+Godless Shrine$1
+Scrubland$1
+Shadowy Backstreet$1
+Silent Clearing$1
+Fiery Islet$1
+Steam Vents$1
+Thundering Falls$1
+Volcanic Island$1
+Bayou$1
+Nurturing Peatland$1
+Overgrown Tomb$1
+Underground Mortuary$1
+Elegant Parlor$1
+Plateau$1
+Sacred Foundry$1
+Sunbaked Canyon$1
+Breeding Pool$1
+Hedge Maze$1
+Tropical Island$1
+Waterlogged Grove$1
+Spara's Headquarters$1
+Raffine's Tower$1
+Xander's Lounge$1
+Ziatora's Proving Ground$1
+Jetmir's Garden$1
+Savai Triome$1
+Ketria Triome$1
+Indatha Triome$1
+Raugrin Triome$1
+Zagoth Triome$1
+Ancient Tomb$1
+Arid Mesa$1
+Bazaar of Baghdad$1
+Bloodstained Mire$1
+Boseiju, Who Endures$1
+City of Brass$1
+City of Traitors$1
+Dark Depths$1
+Flooded Strand$1
+Gaea's Cradle$1
+Karakas$1
+Lotus Field$1
+Mana Confluence$1
+Marsh Flats$1
+Mishra's Workshop$1
+Misty Rainforest$1
+Otawara, Soaring City$1
+Polluted Delta$1
+Prismatic Vista$1
+Scalding Tarn$1
+Shelldock Isle$1
+Strip Mine$1
+Thespian's Stage$1
+Tolarian Academy$1
+Urza's Saga$1
+Valakut, the Molten Pinnacle$1
+Verdant Catacombs$1
+Wasteland$1
+Windbrisk Heights$1
+Windswept Heath$1
+Wooded Foothills$1

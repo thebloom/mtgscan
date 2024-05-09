@@ -4,9 +4,16 @@
 from mtgscan.text import MagicRecognition
 from mtgscan.ocr.azure import Azure
 
+CARD_URL = "https://lh3.googleusercontent.com/pw/AP1GczNzh_VuEjmuswnkw3oQf0uLNuxw8l7Si5lZTf-Z9yWRD4m86aEmFbNDotewUSuJB2afcY66DIjp80OFgTJ_wn8oDNjRjWecXpcZQHRzARr2xGn4jhjEkKmLLm8FewqBiIuYhcxMTdZYNZ_bMdBi8BCzGYdtRM_SIObmx3LSMSr8i8EkwAfGOw70vzcZxg1XQpfxonkudUPZrn83nIWY5CQB7RuZ2p3cG_ZLxMpd5sTTYvLGM20ll8Gnx9LTayWlxy3-rXeDTnYpoZnfiwfPkVu1BWmk_1AZxa03n7hPblJhIzkTor8Q5lmj8jIrQYkAtdTp4_ka14XDkBOMEvTDjYk8f-B2MrnrxhDc4xzWkwTFKyw-k0VYn7PFK1AhBaSgMwz9kdYemsjkiMWuNQ846QGMTEzMISOgA2rBGktV9wWqVb3WZNZ4XolAPwXyP_hn0C23s8_ibxqaZG0VQbFlO8KWKaR6G9CF95BWN6-g2tmQJBinPC0Ds2_zMZgq-SkrAk4hDraJhBLMnQ4v2Fzk_EKSJ68jptfYDHbZDrZZk_XSSHSrAF0ZKiI-dC3AM2VV2ktVyEkHnaWeY-oNirW_A5g4cg_nP9K5odyHGIZUS5_0bbwmdFbqu8S6jhqlPQ0Iav2Vk-WWC5muJBD2wFJVJ9F1Y148w7pu9QeyvNWFdpURVQln8UrPXQDlPkNtBeweqPoGVZLHNNsx2K5yzf1HwHA-1fIgxhxFnke2u0E36MgKk0VQ4ZyCgu890m4PP6jw2Spot6nPppSm6obEJ3j7L0c3nhf71DWtH6qAexL7GiCOpeP36ffSkfbDTR_epulEbzuuFMFRcPkWIFF4gbCo9Q_edQgyQbE86BIaeEsWZQyOBhTbVuwx8BKLr4QPrmW15JWkeHXRT-tmsvEIqhBpmEfyzSM=w2182-h1636-s-no-gm?authuser=0"
+CARD_DICTIONARY = "powercube_cards.txt"
+
 azure = Azure()
-rec = MagicRecognition(file_all_cards="all_cards.txt", file_keywords="Keywords.json")
-box_texts = azure.image_to_box_texts("https://user-images.githubusercontent.com/49362475/105632710-fa07a180-5e54-11eb-91bb-c4710ef8168f.jpeg")
+rec = MagicRecognition(file_all_cards=CARD_DICTIONARY, file_keywords="Keywords.json")
+box_texts = azure.image_to_box_texts(CARD_URL)
 deck = rec.box_texts_to_deck(box_texts)
+# print(deck.maindeck.__len__)
+n = 0
 for c, k in deck:
+    n = n+1
     print(c, k)
+print("total cards " + str(n))

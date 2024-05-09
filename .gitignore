@@ -3,3 +3,7 @@
 azure.env
 *.log
 Azure/
+*.png
+*.jpeg
+*.jpg
+tests2/

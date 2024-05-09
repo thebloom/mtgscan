@@ -11,7 +11,7 @@ import mtgscan.deck
 from mtgscan.ocr.azure import Azure
 import mtgscan.text
 
-FILE_ALL_CARDS = str(DIR_DATA / "all_cards.txt")
+FILE_ALL_CARDS = str(DIR_DATA / "powercube_cards.txt")
 FILE_KEYWORDS = str(DIR_DATA / "Keywords.json")
 
 FORMAT = "[%(asctime)s %(filename)s:%(lineno)s:%(funcName)s()] %(message)s"
@@ -24,7 +24,7 @@ for sample in DIR_SAMPLES.iterdir():
     print(f"- Testing {sample}")
     image = None
     for f in sample.iterdir():
-        if f.name.endswith("jpg") or f.name.endswith("png"):
+        if f.name.endswith("jpg") or f.name.endswith("png") or f.name.endswith("jpeg"):
             image = f.name
     if image is None:
         print("No image found")
