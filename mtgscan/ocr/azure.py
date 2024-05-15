@@ -31,12 +31,19 @@ class Azure(OCR):
             endpoint=os.environ['VISION_ENDPOINT'],
             credential=AzureKeyCredential(os.environ['VISION_KEY'])
         )
-        with open(image, "rb") as f:
-            image_data = f.read()
+        
         visual_features =[
             VisualFeatures.READ,
         ]
-        # Analyze all visual features from an image stream. This will be a synchronously (blocking) call.
+        # For URL:
+        # result = client.analyze_from_url(
+        #     image_url=image,
+        #     visual_features=visual_features,
+        #     language="en"
+        # )
+        # For local file: Analyze all visual features from an image stream. This will be a synchronously (blocking) call.
+        with open(image, "rb") as f:
+            image_data = f.read()
         result = client.analyze(
             image_data=image_data,
             visual_features=visual_features,
