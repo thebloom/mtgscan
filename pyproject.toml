@@ -9,12 +9,13 @@ repository = "https://github.com/thebloom/MTGScan"
 keywords = ["mtg", "scan", "OCR", "magic", "cards", "computer vision"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.9,<4.0"
 symspellpy = "^6.7.0"
 requests = "^2.25.0"
 matplotlib = "^3.3.3"
 psutil = "^5.8.0"
 numpy = "^1.19.3"
+azure-ai-vision-imageanalysis = "^1.0.0b2"
 
 [tool.poetry.dev-dependencies]
 yapf = "^0.30.0"
